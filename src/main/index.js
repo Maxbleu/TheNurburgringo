@@ -28,7 +28,7 @@ function createWindow() {
     return { action: 'deny' }
   })
 
-  mainWindow.webContents.openDevTools({mode:'detach'});
+  //mainWindow.webContents.openDevTools({mode:'detach'});
 
   // HMR for renderer base on electron-vite cli.
   // Load the remote URL for development or the local html file for production.
